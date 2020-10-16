@@ -1,0 +1,8 @@
+{
+  "tpl": {
+    "business-template": {
+      "url": "https://gitlab.wywk.cn/web-team/business-template",
+      "branch": "master"
+    }
+  }
+}

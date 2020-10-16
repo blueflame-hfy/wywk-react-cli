@@ -1,0 +1,42 @@
+{
+  "name": "@wywk/react-cli",
+  "version": "0.1.1",
+  "description": "脚手架",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "gitlog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "bin": {
+    "wywk-react-cli": "bin/wywk-react-cli"
+  },
+  "url": "https://gitlab.wywk.cn/web-team/wywk-react-cli",
+  "author": "hfy",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.wywk.cn/web-team/wywk-react-cli"
+  },
+  "license": "ISC",
+  "keywords": [
+    "react-cli",
+    "WYWK"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^6.1.0",
+    "conventional-changelog-cli": "^2.1.0",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
